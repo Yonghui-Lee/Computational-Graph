@@ -1,0 +1,152 @@
+4
+z C 0.0000
+ul P
+kju V 0.1407
+lzh V -0.1240
+55
+kzs = ul + lzh
+he = GRAD kzs
+he = kju + z
+av = GRAD he
+xc = av AT z
+wbe = av AT z
+lh = ul + kju
+gyc = av AT kju
+ked = av AT z
+he = av AT z
+xc = GRAD lh
+he = xc AT kju
+gv = kju + wbe
+l = xc AT ul
+ei = xc AT ul
+y = xc AT ul
+kzs = lzh * z
+kaq = av AT z
+ueq = xc AT ul
+gyc = gyc * kzs
+py = GRAD kzs
+he = kaq * lzh
+he = lh + wbe
+he = py AT z
+kaq = av AT z
+gv = ei * ul
+kzs = av AT z
+gyc = py AT z
+gv = av AT z
+g = ul + he
+av = av AT z
+l = py AT z
+y = xc AT ul
+kaq = xc AT ul
+kaq = xc AT ul
+gv = py AT z
+ua = z * wbe
+jei = py AT z
+kaq = py AT z
+he = ul + gv
+ei = py AT z
+b = py AT z
+ua = py AT z
+gv = xc AT ul
+py = ked * ul
+xc = xc AT ul
+jei = ei + kju
+g = ul * av
+boc = lh * he
+i = lzh + gv
+ked = z + y
+ac = ul + ueq
+gyc = z + z
+y = GRAD gyc
+g = y AT z
+90
+SETCONSTANT kju -7.3320
+EVAL i 1 ul -3.9403
+EVAL kju
+SETANSWER kju 2
+EVAL kju
+EVAL kju
+EVAL ueq 1 ul 0.0000
+EVAL kzs
+EVAL i 1 ul -2.3978
+EVAL py 1 ul 0.0000
+EVAL jei
+EVAL jei
+EVAL lzh
+EVAL b
+EVAL g
+EVAL lh 1 ul 0.0000
+EVAL jei
+EVAL xc 1 ul -2.0873
+EVAL jei
+EVAL g
+SETANSWER kju 2
+SETCONSTANT lzh 0.1234
+EVAL wbe
+EVAL kju
+EVAL ul
+SETCONSTANT lzh 0.0000
+EVAL wbe
+EVAL z
+EVAL xc 1 ul -1.9931
+EVAL kju
+SETCONSTANT kju -1.4597
+EVAL gv 1 ul -5.9659
+EVAL ueq 1 ul -4.4550
+EVAL kzs
+EVAL av
+EVAL kaq
+EVAL ua
+EVAL lh 1 ul 1.3240
+EVAL he 1 ul -2.9043
+EVAL lh 1 ul 0.0000
+EVAL av
+SETANSWER lzh 28
+SETCONSTANT kju 0.0000
+EVAL z
+EVAL l
+EVAL py 1 ul -4.0891
+EVAL he 1 ul 0.0000
+EVAL lh 1 ul 0.0000
+EVAL xc 1 ul -2.0815
+EVAL jei
+EVAL he 1 ul 0.0000
+EVAL ul
+EVAL av
+SETANSWER lzh 15
+EVAL kaq
+EVAL gv 1 ul -7.0750
+EVAL kaq
+EVAL lh 1 ul -0.8740
+EVAL ei
+EVAL jei
+EVAL kzs
+EVAL ei
+EVAL ked 1 ul -1.2493
+EVAL gyc
+EVAL ul 1 ul -1.2270
+EVAL l
+EVAL av
+EVAL py 1 ul 1.1030
+EVAL kaq
+EVAL wbe
+EVAL ua
+EVAL kaq
+SETCONSTANT kju 1.2229
+EVAL av
+SETCONSTANT kju -6.6125
+EVAL boc 1 ul -2.0796
+SETANSWER kju 60
+SETCONSTANT lzh 0.0000
+EVAL kaq
+EVAL jei
+EVAL ac 1 ul 0.0000
+SETANSWER lzh 34
+EVAL kaq
+EVAL lzh
+EVAL i 1 ul 0.0000
+EVAL ua
+EVAL g
+SETCONSTANT lzh -0.1530
+SETANSWER kju 39
+EVAL ul 1 ul -4.5860

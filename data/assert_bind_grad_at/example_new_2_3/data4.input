@@ -1,0 +1,173 @@
+4
+ru V -7.5977
+jme C -4.4736
+i P
+s V 0.0000
+77
+il = s * jme
+m = ASSERT il
+vu = BIND s m
+vc = GRAD il
+v = ASSERT s
+c = BIND vu v
+q = vc AT s
+o = q * s
+l = vc AT jme
+xd = BIND o m
+vl = vc AT jme
+m = BIND vu v
+o = vc AT jme
+c = vc AT jme
+v = BIND il v
+w = ASSERT jme
+fdk = BIND vl w
+oy = BIND c w
+q = vc AT jme
+vl = i * vu
+o = ru * c
+oy = BIND il w
+bz = vc AT jme
+efn = vc AT jme
+kh = BIND q w
+h = vc AT jme
+al = BIND jme w
+bz = vc AT jme
+oy = ASSERT v
+fdk = BIND l w
+il = ASSERT c
+oy = ASSERT l
+oy = BIND vu w
+efn = BIND l w
+lf = BIND xd w
+uiv = BIND ru il
+efn = BIND al w
+l = ASSERT lf
+vl = vc AT jme
+l = ASSERT vu
+il = vc AT jme
+c = BIND o w
+vl = i * vl
+l = vc AT jme
+vl = ASSERT bz
+vu = vc AT jme
+l = BIND v w
+xd = i * uiv
+vl = ASSERT kh
+q = vc AT jme
+m = BIND fdk w
+vl = BIND al w
+efn = vc AT jme
+k = BIND s w
+q = BIND fdk w
+bz = vc AT jme
+m = ASSERT h
+kh = vc AT jme
+vu = ASSERT al
+xd = BIND c w
+kh = vc AT jme
+bp = BIND al w
+l = ASSERT bz
+c = BIND s l
+h = vc AT jme
+q = BIND i w
+vc = BIND ru m
+q = ASSERT fdk
+q = BIND c w
+uiv = BIND jme m
+efn = BIND fdk w
+kh = BIND fdk w
+c = BIND jme w
+lf = BIND jme w
+v = BIND i m
+efn = ASSERT v
+il = ASSERT k
+89
+EVAL c
+EVAL i 1 i 1.6735
+EVAL v 1 i 0.9179
+EVAL fdk
+EVAL vl
+EVAL q
+EVAL bp
+EVAL i 1 i -6.9168
+EVAL al
+EVAL kh
+SETANSWER s 2
+EVAL o
+SETANSWER s 12
+EVAL vc
+EVAL bp
+SETANSWER s 2
+SETCONSTANT ru -4.2001
+EVAL i 1 i 0.0000
+EVAL vc
+SETCONSTANT s -1.8116
+EVAL jme
+EVAL s
+SETANSWER ru 2
+EVAL jme
+EVAL al
+EVAL fdk
+EVAL q
+EVAL v 1 i -0.2215
+EVAL i 1 i -1.5858
+EVAL ru
+EVAL vl
+SETANSWER ru 2
+EVAL vc
+EVAL jme
+EVAL i 1 i -6.9387
+SETANSWER ru 12
+EVAL o
+EVAL q
+SETCONSTANT ru -7.1951
+EVAL uiv
+EVAL bz
+EVAL xd
+EVAL c
+EVAL h
+EVAL o
+SETANSWER ru 12
+EVAL s
+SETANSWER s 41
+SETCONSTANT s -1.7814
+EVAL s
+EVAL v 1 i -6.2211
+SETCONSTANT ru -4.1451
+EVAL fdk
+EVAL bz
+SETANSWER s 34
+EVAL ru
+EVAL bz
+EVAL xd
+EVAL c
+EVAL q
+EVAL oy
+EVAL o
+EVAL ru
+EVAL v 1 i -7.9796
+SETANSWER s 62
+EVAL ru
+EVAL vl
+EVAL al
+EVAL v 1 i 0.0000
+EVAL o
+EVAL fdk
+SETANSWER s 37
+EVAL vc
+EVAL k
+SETANSWER s 18
+SETCONSTANT s 0.0000
+EVAL al
+EVAL s
+EVAL oy
+EVAL lf
+EVAL ru
+SETCONSTANT s -6.0046
+EVAL kh
+EVAL uiv
+EVAL s
+EVAL oy
+EVAL oy
+EVAL ru
+EVAL vl

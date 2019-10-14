@@ -1,0 +1,76 @@
+4
+z C 0.0000
+ul P
+kju V 0.1407
+lzh V -0.1240
+55
+kzs = ul + lzh
+he = GRAD kzs
+he = kju + z
+av = GRAD he
+xc = av AT z
+wbe = av AT z
+lh = ul + kju
+gyc = av AT kju
+ked = av AT z
+he = av AT z
+xc = GRAD lh
+he = xc AT kju
+gv = kju + wbe
+l = xc AT ul
+ei = xc AT ul
+y = xc AT ul
+kzs = lzh * z
+kaq = av AT z
+ueq = xc AT ul
+gyc = gyc * kzs
+py = GRAD kzs
+he = kaq * lzh
+he = lh + wbe
+he = py AT z
+kaq = av AT z
+gv = ei * ul
+kzs = av AT z
+gyc = py AT z
+gv = av AT z
+g = ul + he
+av = av AT z
+l = py AT z
+y = xc AT ul
+kaq = xc AT ul
+kaq = xc AT ul
+gv = py AT z
+ua = z * wbe
+jei = py AT z
+kaq = py AT z
+he = ul + gv
+ei = py AT z
+b = py AT z
+ua = py AT z
+gv = xc AT ul
+py = ked * ul
+xc = xc AT ul
+jei = ei + kju
+g = ul * av
+boc = lh * he
+i = lzh + gv
+ked = z + y
+ac = ul + ueq
+gyc = z + z
+y = GRAD gyc
+g = y AT z
+14
+SETCONSTANT kju -7.3320
+EVAL i 1 ul -3.9403
+SAVE filename.txtEVAL kju
+SETANSWER kju 2
+EVAL kju
+EVAL kju
+EVAL ueq 1 ul 0.0000
+EVAL kzs
+EVAL b
+LOAD filename.txt
+EVAL g
+EVAL lh 1 ul 0.0000
+EVAL jei
+EVAL xc 1 ul -2.0873

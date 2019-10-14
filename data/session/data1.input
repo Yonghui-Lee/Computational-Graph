@@ -1,0 +1,87 @@
+8
+hc P
+xi V 0.0000
+fj V 0.0000
+hno C 0.6303
+lu V -7.9557
+c C 1.4241
+g C -6.9941
+usv C -6.8011
+62
+lin = SIN usv
+s = hno * usv
+nz = xi + c
+s = hc + xi
+cn = SIGMOID c
+pi = EXP s
+rp = SIGMOID pi
+gh = ASSERT cn
+rp = SIN lu
+cn = SIGMOID usv
+ck = BIND lin gh
+uce = BIND ck gh
+cn = SIN hno
+s = EXP nz
+gv = PRINT rp
+uce = SIGMOID hc
+pi = ASSERT ck
+gh = lin * s
+nz = EXP usv
+gh = ck * nz
+gv = LOG ck
+cr = BIND gh pi
+gv = EXP nz
+lin = BIND lin pi
+hgt = SIN g
+cr = BIND fj pi
+gh = BIND fj pi
+cn = TANH c
+cn = BIND nz pi
+hgt = rp * lu
+gh = LOG gv
+jvp = nz * g
+pi = xi * cn
+gv = gv * xi
+x = LOG nz
+rp = ASSERT hgt
+cij = SIN g
+cr = x + gv
+gh = LOG fj
+gt = BIND pi rp
+kdx = SIGMOID nz
+nz = ASSERT cr
+uce = BIND s nz
+uce = BIND x rp
+s = BIND x rp
+nz = SIN hgt
+cr = ASSERT c
+x = BIND s rp
+x = BIND cn rp
+cn = BIND g cr
+rp = LOG gv
+cn = PRINT ck
+lin = BIND hno cr
+xd = BIND hc cr
+ck = ck + fj
+gv = BIND jvp cr
+hgt = PRINT s
+lin = LOG cij
+rp = PRINT lin
+nz = SIGMOID hgt
+pi = fj * g
+x = TANH xi
+14
+EVAL lu
+EVAL c
+EVAL xi
+SETANSWER xi 3
+SAVE filename.txt
+EVAL usv
+EVAL hc 1 hc -7.0074
+EVAL uce
+EVAL x
+LOAD filename.txt
+EVAL cn
+EVAL g
+SETCONSTANT lu 0.0000
+EVAL jvp

@@ -1,0 +1,176 @@
+4
+org P
+tkr P
+deq V 0.0000
+oe V 0.0000
+80
+j = oe + org
+ori = GRAD j
+r = ori AT org
+r = ori AT org
+v = ori AT org
+yw = ori AT org
+kvj = ori AT org
+r = ori AT org
+itv = deq + kvj
+wq = ori AT org
+n = ori AT org
+gyl = ori AT org
+wq = ori AT org
+cg = ori AT org
+gyl = yw + org
+cg = ori AT org
+oef = ori AT org
+oef = ori AT org
+aeq = ori AT org
+wq = cg * tkr
+zg = deq * org
+gyl = j * v
+n = GRAD zg
+zg = n AT org
+zg = ori AT org
+h = ori AT org
+jb = v + tkr
+yw = oe + gyl
+wq = n AT org
+euc = ori AT org
+kvj = v + org
+zg = itv + tkr
+jb = ori AT org
+itv = ori AT org
+oef = n AT org
+h = ori AT org
+s = ori AT org
+wz = ori AT org
+yw = n AT org
+hie = ori AT org
+s = ori AT org
+itv = n AT org
+cg = n AT org
+yw = n AT org
+xnl = oef * oe
+zg = ori AT org
+jb = ori AT org
+gyl = ori AT org
+r = ori AT org
+zg = org + itv
+euc = deq * org
+hie = GRAD euc
+yw = hie AT org
+hie = ori AT org
+j = ori AT org
+av = ori AT org
+jz = n AT org
+n = xnl * euc
+n = ori AT org
+yw = ori AT org
+ori = GRAD euc
+kvj = tkr * kvj
+h = ori AT org
+av = ori AT org
+aeq = ori AT org
+av = ori AT org
+jz = ori AT org
+ori = org * deq
+v = GRAD ori
+zg = oe + itv
+h = v AT org
+wq = v AT org
+n = v AT org
+yw = v AT org
+jz = v AT org
+euc = xnl + deq
+gmd = v AT org
+jb = xnl * org
+v = v AT org
+aeq = euc + tkr
+89
+SETCONSTANT oe 0.0000
+EVAL oef 1 org -3.7397
+EVAL h 1 org -5.5480
+EVAL wz 1 org -1.3656
+EVAL n 1 org -6.9508
+SETCONSTANT deq -0.2106
+SETANSWER deq 5
+SETANSWER deq 4
+SETCONSTANT deq -1.5706
+EVAL wq 1 org 0.7281
+SETCONSTANT oe -6.8498
+EVAL gyl 1 org 0.0000
+EVAL xnl 1 org 1.3458
+EVAL euc 1 org 0.9591
+EVAL itv 1 org 1.2819
+EVAL kvj 2 tkr 0.0000 org -7.5104
+EVAL jz 1 org -3.8778
+EVAL gyl 1 org -2.4010
+EVAL aeq 2 org -2.9857 tkr -3.7331
+SETANSWER oe 5
+SETCONSTANT deq -3.7463
+EVAL aeq 2 org -6.1065 tkr -0.2057
+EVAL n 1 org -4.9121
+EVAL kvj 2 tkr 0.0000 org -3.1994
+SETCONSTANT oe 0.0000
+EVAL zg 1 org -0.1749
+EVAL aeq 2 org -0.9099 tkr 0.0000
+EVAL tkr 1 tkr 0.0000
+SETANSWER oe 22
+EVAL yw 1 org -4.9646
+EVAL gmd 1 org 0.0000
+EVAL oef 1 org -0.7546
+SETCONSTANT deq -6.2727
+SETCONSTANT oe -0.3199
+SETANSWER oe 23
+EVAL r 1 org 0.0000
+EVAL xnl 1 org 0.0000
+EVAL org 1 org -5.2595
+SETCONSTANT oe -7.9757
+EVAL euc 1 org -3.8141
+EVAL aeq 2 org 0.0000 tkr -2.5878
+EVAL j 1 org 1.5528
+EVAL kvj 2 tkr -2.6554 org -5.8929
+EVAL h 1 org -6.7374
+EVAL oef 1 org -6.9619
+EVAL j 1 org -5.8048
+SETCONSTANT oe -3.0101
+SETANSWER deq 43
+EVAL jz 1 org 0.6678
+EVAL wq 1 org -3.4504
+EVAL zg 1 org -6.9473
+EVAL s 1 org -4.9680
+EVAL gyl 1 org -5.9764
+EVAL gmd 1 org -3.6629
+EVAL gyl 1 org -4.6324
+EVAL yw 1 org 0.0000
+EVAL zg 1 org -0.3056
+SETANSWER oe 50
+EVAL deq
+SETCONSTANT oe 0.0000
+SETCONSTANT oe 0.0000
+EVAL av 1 org -5.8064
+SETANSWER oe 14
+SETCONSTANT oe -6.7291
+EVAL s 1 org -0.0906
+EVAL h 1 org -3.0946
+SETANSWER oe 30
+EVAL kvj 2 tkr 0.0000 org 0.0000
+SETCONSTANT deq 0.0000
+EVAL h 1 org 0.7541
+SETCONSTANT oe -4.5068
+EVAL tkr 1 tkr -1.6143
+EVAL r 1 org -6.2861
+EVAL hie 1 org 0.0000
+EVAL itv 1 org -5.4793
+EVAL wq 1 org 1.5851
+EVAL itv 1 org -2.3092
+EVAL gyl 1 org 1.2627
+SETANSWER deq 76
+EVAL deq
+EVAL jz 1 org -3.3193
+EVAL aeq 2 org -2.8190 tkr -2.7325
+SETCONSTANT deq 0.0000
+EVAL ori 1 org 0.0000
+EVAL jb 1 org 0.0445
+EVAL aeq 2 org -7.1589 tkr -6.4981
+EVAL euc 1 org 0.0000
+EVAL ori
+EVAL av 1 org 1.1126

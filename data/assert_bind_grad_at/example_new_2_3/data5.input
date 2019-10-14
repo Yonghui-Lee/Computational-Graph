@@ -1,0 +1,115 @@
+6
+zls V -3.1459
+vei P
+ntf P
+gi P
+rnk C -3.5061
+s C -0.7868
+56
+quc = s * zls
+ia = GRAD quc
+e = ia AT zls
+mtw = ia AT zls
+jr = quc + quc
+yu = ntf * s
+pyg = ASSERT zls
+pyg = ASSERT yu
+wsb = ASSERT rnk
+eny = jr + jr
+pyg = ASSERT e
+mr = GRAD yu
+mr = ASSERT ntf
+ia = ia AT zls
+nl = ASSERT rnk
+yu = GRAD eny
+gbr = ASSERT zls
+gbr = GRAD jr
+lti = ASSERT quc
+nl = s + zls
+sv = BIND vei mr
+pyg = nl + gi
+wsb = gbr AT zls
+yu = ASSERT sv
+ia = BIND jr mr
+ym = BIND eny lti
+mr = ASSERT ym
+j = gbr AT zls
+pyg = GRAD pyg
+ia = gbr AT zls
+sv = gbr AT zls
+l = gbr AT zls
+gbr = gbr AT zls
+tjo = BIND e lti
+rdi = GRAD nl
+r = BIND rnk mr
+frw = BIND ntf lti
+lti = ASSERT gi
+e = GRAD quc
+sv = e AT zls
+yu = eny * gbr
+ia = BIND sv lti
+sv = BIND gbr lti
+wmn = ASSERT wsb
+f = wsb + jr
+l = ASSERT gi
+tjo = BIND yu lti
+yu = BIND zls lti
+mtw = GRAD jr
+pyg = e AT zls
+gbr = e AT zls
+quc = zls + j
+e = BIND gi wmn
+wsb = BIND e lti
+sv = mtw AT zls
+mtw = rdi AT zls
+50
+EVAL wsb 1 gi -1.7013
+EVAL eny
+EVAL ntf
+EVAL r
+EVAL ym
+EVAL tjo 1 gi -0.4367
+EVAL j
+EVAL ntf 1 ntf -2.8660
+EVAL f
+EVAL r
+EVAL gbr
+EVAL frw 1 ntf 0.0000
+EVAL s
+EVAL quc
+SETANSWER zls 4
+EVAL pyg
+SETCONSTANT zls -5.1959
+EVAL pyg
+EVAL quc
+EVAL quc
+EVAL ym
+SETANSWER zls 10
+EVAL ym
+SETCONSTANT zls -7.1528
+EVAL eny
+EVAL quc
+SETANSWER zls 18
+EVAL sv
+EVAL tjo 1 gi -6.2934
+EVAL rnk
+SETANSWER zls 5
+EVAL ntf 1 ntf -6.9158
+EVAL zls
+EVAL f
+EVAL f
+SETCONSTANT zls -6.7486
+SETCONSTANT zls -2.9046
+EVAL pyg
+EVAL eny
+EVAL quc
+EVAL ntf 1 ntf -0.5617
+EVAL gi
+SETANSWER zls 10
+EVAL ntf 1 ntf -2.8210
+SETANSWER zls 21
+EVAL gi
+EVAL gbr
+EVAL ntf 1 ntf -1.9588
+SETCONSTANT zls 0.0000
+SETCONSTANT zls 0.8063

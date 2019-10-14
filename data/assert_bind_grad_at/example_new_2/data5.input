@@ -1,0 +1,169 @@
+6
+cl P
+kl P
+k V -3.6770
+t P
+c P
+g C 0.0000
+68
+i = LOG t
+opg = SIN cl
+j = EXP t
+eps = LOG i
+n = SIN kl
+hws = k + opg
+i = k * opg
+hws = t + kl
+vf = k + hws
+n = LOG opg
+gw = ASSERT vf
+p = BIND c gw
+h = BIND t gw
+i = BIND j gw
+dt = h + k
+mo = BIND i gw
+ndc = BIND vf gw
+eps = BIND t gw
+ndc = BIND dt gw
+bcl = BIND h gw
+h = BIND opg gw
+ndc = mo * mo
+f = BIND ndc gw
+gw = c + opg
+f = TANH vf
+vf = h * n
+ogm = SIGMOID gw
+dt = SIN eps
+tli = LOG eps
+mo = tli * kl
+tli = EXP opg
+ndc = SIGMOID k
+hws = f * tli
+bcl = n * mo
+j = SIGMOID opg
+h = LOG g
+h = EXP kl
+tmz = EXP k
+mo = EXP n
+f = PRINT h
+i = EXP dt
+ku = TANH dt
+bcl = PRINT j
+f = j + j
+gw = TANH cl
+h = SIN k
+gw = PRINT ogm
+uph = n * k
+i = LOG n
+i = opg + n
+j = ASSERT t
+faq = EXP mo
+ca = BIND c j
+h = BIND tmz j
+ogm = BIND mo j
+bcl = BIND gw j
+ogm = SIN bcl
+ogm = BIND ndc j
+bcl = BIND bcl j
+h = BIND vf j
+j = PRINT tli
+j = SIN hws
+mo = SIN ca
+ogm = PRINT g
+gw = kl * gw
+mo = SIN k
+vf = ASSERT eps
+f = c * dt
+92
+EVAL c
+EVAL cl
+EVAL uph 1 cl 0.0000
+EVAL tli 1 cl 1.7261
+EVAL i
+EVAL h 3 cl -6.9761 t 0.0000 kl -7.2144
+SETCONSTANT k -6.0034
+EVAL mo
+EVAL opg 1 cl -6.2958
+EVAL faq 1 cl -2.6497
+EVAL hws 2 t -1.5010 cl 0.0000
+EVAL p 3 c 0.0000 t 1.7830 kl -4.2521
+EVAL f 3 c 0.0000 t -3.9538 kl -6.8264
+EVAL uph 1 cl 1.0280
+EVAL dt 2 t -0.9410 kl 0.5596
+EVAL k
+EVAL eps 2 t 0.0000 kl -4.2004
+SETANSWER k 9
+EVAL p 3 c -5.8432 t -2.2383 kl -3.5828
+EVAL ku 2 t -3.2959 kl 0.0000
+EVAL tli 1 cl -4.0571
+EVAL g
+EVAL k
+EVAL faq 1 cl -2.0830
+EVAL faq 1 cl 1.6522
+SETCONSTANT k 0.3999
+SETANSWER k 21
+EVAL faq
+EVAL ca 2 c 0.0000 t -4.1564
+EVAL p 3 c -6.8480 t -5.8084 kl 0.0000
+SETANSWER k 22
+EVAL ogm
+EVAL i
+SETCONSTANT k -0.6529
+EVAL c 1 c 0.0000
+EVAL ku 2 t 0.0000 kl 0.0000
+EVAL c 1 c -4.1878
+EVAL cl 1 cl -7.2032
+EVAL c
+EVAL i 1 cl -6.1755
+EVAL i 1 cl 1.0382
+EVAL ca 2 c -1.7863 t 0.0000
+EVAL ogm
+EVAL tli 1 cl -6.1504
+SETCONSTANT k -1.5168
+EVAL opg 1 cl 0.0000
+EVAL kl 1 kl -4.8126
+EVAL n 1 cl 0.0000
+SETCONSTANT k 1.3111
+EVAL f 3 c -6.9263 t -2.3751 kl -1.3315
+EVAL faq 1 cl -5.1588
+EVAL hws 3 t -2.1966 cl 0.0000 kl -7.5613
+SETCONSTANT k 0.0000
+EVAL p 3 c -6.0755 t -5.6348 kl 0.0000
+SETCONSTANT k 0.0000
+EVAL cl 1 cl 1.8029
+SETCONSTANT k -4.4390
+EVAL h 3 cl -0.8943 t -2.9230 kl 0.0000
+SETCONSTANT k 0.7467
+SETANSWER k 52
+EVAL h 3 cl -3.0777 t -3.1693 kl -4.3404
+EVAL gw 3 kl -2.0262 cl 0.0000 c 0.3225
+EVAL h 3 cl 1.9470 t 0.0000 kl -4.4905
+EVAL k
+EVAL n
+EVAL t
+SETANSWER k 52
+EVAL g
+EVAL ogm
+EVAL t 1 t -5.8218
+EVAL c 1 c -5.4353
+EVAL cl 1 cl -1.4345
+EVAL mo
+EVAL c 1 c 0.0000
+EVAL hws 2 cl -6.5888 kl 0.9808
+EVAL cl 1 cl -4.2414
+EVAL i 1 cl -1.7918
+SETCONSTANT k 1.6233
+EVAL eps 2 t -3.5522 kl -7.4399
+SETANSWER k 4
+SETANSWER k 22
+SETANSWER k 72
+EVAL c 1 c -3.7596
+EVAL cl 1 cl -5.3794
+EVAL bcl 3 c -5.8504 cl 0.0000 t 0.3889
+EVAL n
+EVAL ca 2 c 0.8297 t 0.3845
+EVAL h 3 cl 0.0000 t -4.1788 kl -0.3533
+EVAL k
+SETANSWER k 70
+EVAL g
+EVAL hws 3 t -7.1775 cl 0.0000 kl -3.6191

@@ -1,0 +1,26 @@
+4
+x P
+y P
+b C 3.0
+a C 5.0
+13
+L = x * y
+S = SIN L
+g = GRAD S
+gx = g AT x
+gy = g AT y
+t = gx + gy
+L2 = x + b
+S2 = L2 * a
+T2 = LOG S2
+g2 = GRAD T2
+gx2 = g2 AT x
+ga2 = g2 AT a
+t2 = gx2 + ga2
+6
+EVAL gx 2 x 3.0 y 2.0
+EVAL gy 2 x 3.0 y 2.0
+EVAL t 2 x 3.0 y 2.0
+EVAL gx2 1 x 1.0
+EVAL ga2 1 x 2.0
+EVAL t2 1 x 3.0

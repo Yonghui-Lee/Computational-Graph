@@ -1,0 +1,158 @@
+8
+w V -0.8600
+z V -0.2600
+pkg P
+hen V 0.0000
+j V 0.8082
+yp C 1.3191
+e C -5.0478
+ex P
+78
+rbx = hen + ex
+fpo = GRAD rbx
+qmx = fpo AT ex
+guh = fpo AT ex
+dp = fpo AT ex
+xs = fpo AT ex
+k = fpo AT ex
+u = fpo AT ex
+rbx = fpo AT ex
+d = fpo AT ex
+k = fpo AT ex
+bm = fpo AT ex
+rbx = fpo AT hen
+kt = fpo AT hen
+guh = fpo AT hen
+qj = fpo AT hen
+v = fpo AT hen
+ls = fpo AT hen
+bm = fpo AT hen
+qj = bm + yp
+wal = fpo AT hen
+ax = fpo AT hen
+ev = fpo AT hen
+sf = ex + hen
+d = GRAD sf
+dp = fpo AT hen
+qj = d AT hen
+ls = d AT hen
+kt = fpo AT hen
+dp = fpo AT hen
+ls = d AT hen
+sf = fpo AT hen
+d = d AT hen
+v = j * yp
+ur = GRAD v
+fpo = fpo AT hen
+fpo = ur AT j
+ax = ur AT j
+sf = ur AT j
+d = ur AT j
+qj = ur AT j
+d = ur AT j
+xs = ur AT j
+qmx = v + ev
+ax = ur AT j
+ax = ur AT j
+wal = ur AT j
+d = ur AT j
+v = ax + z
+xs = ur AT j
+yos = ur AT j
+fpo = ur AT j
+rbx = ur AT j
+wal = ur AT j
+r = ur AT j
+qmx = ur AT j
+wal = ur AT j
+ax = ur AT j
+ev = ur AT j
+dp = ur AT j
+ev = ur AT j
+rbx = ur AT j
+r = ur AT j
+ax = ax * pkg
+qj = ur AT j
+dp = ur AT j
+u = ur AT j
+qmx = ur AT j
+yos = w + wal
+ls = ur AT j
+k = e * k
+qmx = pkg + sf
+xs = ur AT j
+dp = hen * guh
+ev = ur AT j
+qj = sf + pkg
+ur = ur AT j
+ev = v + w
+69
+EVAL v
+EVAL z
+EVAL qmx 1 pkg 0.0000
+EVAL k 1 ex -5.7886
+EVAL ax 1 pkg 0.0000
+EVAL hen
+EVAL bm 1 ex -3.5092
+EVAL qmx 1 pkg -3.2661
+EVAL yos
+EVAL u
+EVAL sf
+EVAL ev
+EVAL r
+EVAL qj 1 pkg 0.0000
+EVAL ur
+EVAL ur
+SETCONSTANT j 0.0000
+EVAL pkg 1 pkg 0.0000
+SETCONSTANT hen -5.3711
+EVAL e
+EVAL qj 1 pkg -3.1226
+EVAL xs
+EVAL sf
+EVAL r
+EVAL u
+EVAL pkg 1 pkg -0.0849
+SETANSWER j 5
+SETANSWER z 24
+EVAL qmx 1 pkg -5.5038
+SETCONSTANT j 0.0000
+EVAL rbx
+EVAL yos
+EVAL e
+EVAL ur
+EVAL d
+EVAL fpo
+EVAL j
+EVAL yos
+EVAL hen
+SETCONSTANT w 0.0000
+SETANSWER w 36
+EVAL guh 1 ex -1.4844
+SETCONSTANT w -1.2379
+EVAL e
+EVAL yos
+EVAL wal
+SETANSWER z 38
+SETCONSTANT j -4.7819
+EVAL guh 1 ex -0.0318
+SETANSWER j 49
+EVAL ax 1 pkg -0.6518
+EVAL j
+SETCONSTANT j 1.8494
+EVAL ur
+EVAL ls
+EVAL pkg 1 pkg 0.0000
+SETCONSTANT j 0.5169
+EVAL rbx
+EVAL fpo
+EVAL ur
+EVAL wal
+EVAL ev
+EVAL pkg 1 pkg 0.0000
+EVAL ev
+EVAL ls
+SETANSWER w 21
+EVAL sf
+EVAL qj 1 pkg -0.9768
+EVAL bm 1 ex 0.0000

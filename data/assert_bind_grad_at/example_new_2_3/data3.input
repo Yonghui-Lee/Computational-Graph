@@ -1,0 +1,196 @@
+6
+g P
+je V 0.0000
+qxi V -5.3664
+tl V -1.5953
+jl V 0.2929
+v C -6.4619
+89
+quk = qxi + jl
+az = GRAD quk
+uj = az AT qxi
+l = ASSERT uj
+srt = ASSERT tl
+gto = az AT qxi
+vso = BIND qxi srt
+l = BIND je srt
+j = ASSERT je
+d = az AT qxi
+rek = ASSERT g
+quk = BIND qxi j
+quk = qxi * uj
+h = az AT qxi
+cp = ASSERT tl
+quk = BIND qxi j
+bac = BIND l rek
+srt = BIND quk j
+l = BIND bac j
+srt = tl + je
+quk = az AT jl
+j = BIND g cp
+d = GRAD srt
+h = BIND qxi cp
+ywd = BIND jl rek
+gto = uj + qxi
+d = jl + jl
+cp = az AT qxi
+jr = az AT qxi
+l = ASSERT jl
+srt = ASSERT jr
+gto = az AT qxi
+vso = ASSERT je
+bac = BIND qxi rek
+ywd = az AT qxi
+l = az AT qxi
+j = BIND je rek
+b = ASSERT gto
+rxe = GRAD d
+vso = BIND d b
+cp = v * d
+az = ASSERT quk
+trf = rxe AT jl
+nl = GRAD cp
+rek = qxi * ywd
+trf = ASSERT jl
+j = ASSERT je
+srt = BIND v trf
+gto = BIND d trf
+az = ASSERT uj
+uj = BIND vso j
+l = GRAD d
+az = BIND je trf
+quk = ASSERT ywd
+gto = ASSERT rek
+jr = v + bac
+gto = ASSERT vso
+b = ASSERT qxi
+trf = ASSERT d
+b = rxe AT jl
+q = BIND cp j
+l = ASSERT h
+d = BIND jl j
+jr = ASSERT jr
+cp = rxe AT jl
+jr = ASSERT v
+jr = BIND qxi trf
+jr = BIND tl j
+j = BIND vso j
+l = rxe AT jl
+cp = nl AT jl
+trf = ASSERT bac
+srt = rxe AT jl
+trf = rxe AT jl
+b = BIND je quk
+ywd = nl AT jl
+cnw = BIND je quk
+j = nl AT jl
+uj = ASSERT v
+jr = rxe AT jl
+srt = rxe AT jl
+uj = BIND g gto
+az = ASSERT ywd
+l = tl + q
+rxe = je + uj
+ywd = BIND g gto
+srt = BIND qxi quk
+j = BIND g gto
+b = BIND jl quk
+98
+EVAL cp
+EVAL uj 1 g 0.0000
+SETCONSTANT tl -3.2996
+EVAL cp
+EVAL rxe 1 g 0.0000
+EVAL v
+EVAL v
+SETANSWER qxi 2
+EVAL trf
+EVAL ywd 1 g 0.0000
+EVAL uj 1 g 0.0000
+EVAL rek
+EVAL v
+EVAL b
+EVAL cnw
+EVAL rxe 1 g -4.1087
+EVAL ywd 1 g -7.9299
+SETANSWER qxi 12
+SETANSWER jl 15
+EVAL rek
+EVAL b
+SETCONSTANT qxi 1.5556
+EVAL j 1 g -4.0570
+EVAL srt
+EVAL rxe 1 g 0.9094
+EVAL uj 1 g 0.0000
+EVAL rek
+EVAL rek
+EVAL l
+EVAL bac 1 g 0.9234
+EVAL h
+SETCONSTANT tl 0.0000
+EVAL qxi
+EVAL jl
+SETANSWER tl 24
+EVAL tl
+EVAL g 1 g 0.0000
+EVAL je
+EVAL je
+EVAL je
+EVAL qxi
+EVAL rek
+EVAL srt
+EVAL v
+SETCONSTANT je 0.0000
+EVAL je
+EVAL rek
+EVAL rek
+EVAL g 1 g 0.0000
+EVAL b
+EVAL g 1 g -2.8995
+EVAL cnw
+EVAL je
+EVAL l
+SETCONSTANT qxi 1.2343
+EVAL uj 1 g 0.0000
+EVAL jr
+EVAL rxe 1 g 0.6090
+EVAL q
+EVAL jl
+EVAL v
+EVAL ywd 1 g -6.8903
+EVAL ywd 1 g -1.8915
+EVAL j 1 g -6.8716
+EVAL srt
+SETANSWER jl 37
+EVAL l
+EVAL q
+SETANSWER tl 5
+EVAL qxi
+SETANSWER qxi 12
+EVAL b
+SETCONSTANT tl -7.8912
+EVAL bac 1 g -2.9395
+EVAL d
+EVAL h
+SETCONSTANT qxi -3.4519
+SETANSWER je 42
+EVAL vso
+EVAL je
+EVAL j 1 g -7.5765
+EVAL j 1 g -4.5886
+EVAL g 1 g 0.0000
+EVAL uj 1 g -3.9985
+EVAL d
+EVAL uj 1 g 0.6198
+EVAL d
+EVAL j 1 g -1.9742
+SETCONSTANT qxi 0.0000
+EVAL jl
+EVAL v
+EVAL j 1 g 0.0000
+SETCONSTANT tl -6.2488
+EVAL qxi
+EVAL j 1 g -0.6016
+EVAL d
+EVAL l
+EVAL je

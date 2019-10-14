@@ -1,0 +1,15 @@
+2
+x P
+y P
+7
+L = COS x
+Z = EXP L
+F = Z * y
+g = GRAD F
+gx = g AT x
+gy = g AT y
+t = gx + gy
+3
+EVAL gx 2 x 3.0 y 2.0
+EVAL gy 2 x 3.0 y 2.0
+EVAL t 2 x 3.0 y 2.0

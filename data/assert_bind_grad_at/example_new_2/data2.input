@@ -1,0 +1,167 @@
+9
+hz P
+ta C 0.0000
+nx V 0.0000
+cb V 0.0000
+mtz C 0.0000
+kxe V -1.3886
+pmx P
+di C 0.8365
+htu P
+69
+ix = LOG hz
+s = ASSERT ix
+jp = BIND cb s
+ou = BIND cb s
+grp = LOG jp
+ldo = SIN di
+ou = SIN hz
+s = PRINT jp
+ldo = ou * ix
+omu = pmx * pmx
+hja = PRINT pmx
+ldo = TANH cb
+nis = pmx + cb
+i = SIGMOID hja
+jp = PRINT di
+jp = TANH ou
+ix = cb * ta
+nc = ASSERT nx
+acq = BIND ta nc
+n = BIND jp nc
+n = grp * grp
+ix = ASSERT ix
+e = BIND acq nc
+hja = BIND e nc
+i = BIND n nc
+fn = EXP di
+ix = EXP htu
+ldo = BIND n nc
+hta = EXP e
+ou = TANH ix
+n = BIND cb nc
+l = TANH e
+e = PRINT e
+kz = acq + di
+l = BIND ou nc
+n = BIND hta nc
+ix = BIND di nc
+u = BIND ou nc
+kz = TANH kxe
+w = BIND hz nc
+hja = ou + pmx
+nc = PRINT ta
+i = htu + nis
+s = e + di
+fn = SIN grp
+n = cb + pmx
+jp = SIN kz
+xr = TANH nis
+ldo = nx + ldo
+ou = ASSERT ta
+acq = TANH i
+u = LOG u
+acq = EXP hta
+ix = TANH kxe
+jp = SIN kxe
+nis = BIND kz ou
+i = LOG nx
+fn = BIND cb ou
+omu = EXP u
+nc = EXP mtz
+ldo = PRINT kz
+jp = jp * pmx
+hja = BIND nc ou
+ldo = BIND w ou
+e = BIND xr ou
+nc = BIND xr ou
+n = TANH htu
+kz = nc * i
+w = LOG grp
+86
+EVAL kz 1 pmx 0.0000
+EVAL jp 1 pmx -3.0916
+EVAL fn
+EVAL di
+SETANSWER kxe 4
+EVAL n 1 htu 0.0000
+EVAL hta
+SETCONSTANT kxe -5.8477
+EVAL l 1 htu 0.0000
+EVAL n 1 htu -0.3912
+EVAL nx
+EVAL ldo 1 hz 1.4922
+EVAL n 1 htu 0.1659
+SETANSWER nx 10
+EVAL n 1 htu -6.1433
+EVAL hja
+EVAL hja
+EVAL di
+EVAL cb
+EVAL ta
+EVAL l 1 htu -1.1637
+EVAL w 1 hz 1.9722
+EVAL ta
+SETANSWER kxe 13
+EVAL cb
+EVAL nis
+EVAL u 1 htu -0.0314
+EVAL e 1 pmx -1.8082
+EVAL omu 1 htu -7.0714
+EVAL hz 1 hz 0.0000
+EVAL pmx
+EVAL w 1 hz 0.0000
+EVAL omu 1 htu -7.5498
+EVAL mtz
+EVAL kz 1 pmx -4.7900
+EVAL nc 1 pmx 0.0000
+SETANSWER cb 11
+EVAL hja
+EVAL n 1 htu -0.3988
+EVAL cb
+EVAL nis
+SETCONSTANT cb 0.0000
+EVAL cb
+EVAL kz 1 pmx 1.5889
+EVAL jp 1 pmx -3.6007
+EVAL hja
+EVAL kxe
+EVAL ldo 1 hz -2.0044
+EVAL n 1 htu 0.0000
+EVAL hja
+SETCONSTANT nx -0.0189
+EVAL ldo 1 hz 0.0000
+EVAL nc 1 pmx 0.0000
+EVAL kxe
+EVAL kxe
+EVAL e 1 pmx -6.4663
+EVAL jp 1 pmx 0.0000
+EVAL grp 1 hz -2.1095
+EVAL u 1 htu -5.4518
+EVAL xr 1 pmx -5.4550
+SETCONSTANT kxe 0.0000
+EVAL hta
+EVAL hz
+EVAL ta
+EVAL ix
+EVAL hta
+SETCONSTANT nx 0.2235
+EVAL htu 1 htu -4.7720
+EVAL ix
+EVAL w 1 hz -4.8994
+SETCONSTANT cb 0.0000
+EVAL ldo 1 hz -5.6608
+EVAL e 1 pmx -1.9904
+EVAL acq
+EVAL mtz
+EVAL nx
+EVAL n 1 htu 0.0000
+EVAL hta
+EVAL htu 1 htu 0.0000
+EVAL w 1 hz -7.5673
+SETANSWER cb 6
+EVAL s
+EVAL u 1 htu -3.2041
+SETCONSTANT cb -7.4296
+EVAL pmx 1 pmx 0.0000
+EVAL acq

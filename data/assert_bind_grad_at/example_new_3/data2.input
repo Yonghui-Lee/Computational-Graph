@@ -1,0 +1,122 @@
+9
+qc C -2.1946
+z P
+hqy V -2.7199
+n P
+h P
+epc P
+edi V 0.0000
+fh C 0.0000
+xz V -7.4164
+57
+vla = hqy + n
+i = GRAD vla
+vla = i AT n
+wuf = qc * hqy
+wl = i AT hqy
+zpj = i AT hqy
+e = GRAD wuf
+wl = i AT hqy
+vla = i AT hqy
+jr = edi + xz
+wuf = GRAD jr
+zey = i AT n
+sg = i AT hqy
+b = vla + fh
+puw = i AT hqy
+b = hqy * epc
+qv = GRAD b
+zey = i AT hqy
+puw = e AT qc
+a = qv AT hqy
+qv = b + edi
+zey = GRAD qv
+woq = e AT qc
+wl = qc + h
+puw = zey AT hqy
+sg = GRAD wl
+xjs = e AT qc
+jr = sg AT qc
+zpj = e AT qc
+wl = xjs + b
+qv = i AT n
+zey = i AT n
+zpj = sg AT qc
+zey = i AT n
+wl = e AT qc
+xa = GRAD b
+wl = h * n
+xa = xa AT hqy
+zey = sg AT qc
+i = e AT qc
+zpj = sg AT qc
+zey = sg AT qc
+xa = edi * hqy
+e = sg AT qc
+wuf = sg AT qc
+puw = sg AT qc
+hpr = sg AT qc
+b = GRAD xa
+i = sg AT qc
+hpr = sg AT qc
+vla = sg AT qc
+hpr = sg AT qc
+wl = hqy * z
+puw = sg AT qc
+qnx = sg AT qc
+wuf = sg AT qc
+xa = sg AT qc
+53
+EVAL e 1 h 0.0000
+SETCONSTANT edi 0.6392
+SETCONSTANT edi 0.0000
+EVAL n 1 n 0.2957
+SETCONSTANT xz -3.7799
+EVAL edi
+EVAL i 1 h -5.1001
+EVAL woq
+EVAL xjs
+EVAL h 1 h 0.0000
+EVAL a 1 epc 0.0000
+SETANSWER xz 9
+EVAL fh
+EVAL puw 1 h -7.5572
+EVAL zey 1 h -4.4483
+SETCONSTANT hqy -2.7433
+SETCONSTANT edi 0.0000
+EVAL woq
+EVAL wl
+SETCONSTANT hqy -1.8276
+EVAL zey 1 h 1.2349
+EVAL fh
+EVAL qc
+EVAL a 1 epc -6.0943
+EVAL jr 1 h -6.6832
+EVAL zey 1 h -4.5571
+SETCONSTANT hqy -4.6025
+EVAL xa 1 h -6.8885
+EVAL a 1 epc 0.0000
+EVAL e 1 h -0.8191
+EVAL zey 1 h 0.0000
+EVAL xa 1 h -0.3458
+EVAL wuf 1 h -2.8201
+SETANSWER hqy 28
+SETCONSTANT hqy 0.0000
+EVAL vla 1 h 0.0000
+EVAL epc
+EVAL h 1 h 0.0000
+EVAL h 1 h 0.0000
+EVAL xa 1 h 0.0000
+EVAL a 1 epc 0.0000
+SETANSWER hqy 24
+SETCONSTANT edi -7.3536
+EVAL wuf 1 h -0.8423
+EVAL zey 1 h -3.6048
+EVAL qv 1 n 1.5493
+EVAL qv 1 n -4.4528
+EVAL vla 1 h 0.5688
+EVAL epc 1 epc -6.1635
+SETANSWER edi 22
+EVAL wl 1 z -7.2236
+SETANSWER hqy 25
+EVAL hqy

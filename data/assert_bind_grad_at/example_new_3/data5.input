@@ -1,0 +1,166 @@
+6
+g P
+w P
+vhf P
+zsy P
+lfs P
+foh C -1.7586
+87
+zm = foh + g
+k = GRAD zm
+o = k AT g
+fch = k AT g
+fx = k AT g
+k = k AT g
+xi = w * w
+l = GRAD xi
+tfa = foh * fch
+k = lfs + lfs
+o = GRAD k
+reh = o AT lfs
+o = k + lfs
+saf = xi + zsy
+fx = GRAD o
+i = l AT w
+yaw = fx AT lfs
+l = GRAD saf
+i = fx AT lfs
+i = fx AT lfs
+upb = l AT w
+upb = vhf + w
+dz = l AT w
+ked = l AT w
+o = GRAD upb
+saf = foh + w
+hlv = fx AT lfs
+hyr = fx AT lfs
+ct = fx AT lfs
+fx = fch * zm
+hyr = GRAD zm
+saf = l AT w
+pox = hyr AT g
+tfa = hyr AT g
+fx = tfa * zsy
+x = fx + zm
+hlv = GRAD zm
+fch = hyr AT g
+ked = hlv AT g
+kpc = hlv AT g
+ked = hlv AT g
+i = hlv AT g
+hlv = hyr AT g
+kpc = l AT w
+bmj = l AT w
+dz = hyr AT g
+nt = hyr AT g
+o = hyr AT g
+nt = hyr AT g
+hlv = hyr AT g
+l = hyr AT g
+x = pox * g
+k = lfs + lfs
+hlv = hyr AT g
+x = hyr AT g
+pox = vhf * w
+tfa = GRAD pox
+reh = tfa AT w
+reh = tfa AT w
+pox = hyr AT g
+ked = hyr AT g
+nt = zsy + l
+fx = tfa AT w
+xi = hyr AT g
+yaw = hyr AT g
+saf = tfa AT w
+reh = hyr AT g
+dz = tfa AT w
+i = hyr AT g
+fch = hyr AT g
+nt = hyr AT g
+k = hyr AT g
+o = bmj + zm
+xi = tfa AT w
+fch = tfa AT w
+xi = GRAD zm
+x = hyr AT g
+nt = zsy * dz
+l = l * foh
+i = hyr AT g
+fx = hyr AT g
+upb = tfa AT w
+nt = hyr AT g
+ked = tfa AT w
+yaw = tfa AT w
+dz = hyr AT g
+fch = hyr AT g
+70
+EVAL pox 1 g -1.4565
+EVAL fch 1 g -5.8479
+EVAL zm 1 g -3.7736
+EVAL l 1 g 0.0000
+EVAL pox 1 g 0.0000
+EVAL zsy 1 zsy 0.0000
+EVAL i 1 g -1.6449
+EVAL i 1 g -3.8808
+EVAL l 1 g -6.4220
+EVAL bmj 2 w 0.0000 zsy 0.0000
+EVAL g 1 g 0.0000
+EVAL x 1 g -5.8398
+EVAL yaw 2 vhf 1.7031 w 0.9762
+EVAL lfs 1 lfs 0.0000
+EVAL w
+EVAL k 1 g 0.0000
+EVAL l 1 g -1.7617
+EVAL hlv 1 g 0.0000
+EVAL bmj 2 w -1.3979 zsy -4.7816
+EVAL i 1 g 0.0000
+EVAL g 1 g -4.1430
+EVAL ked 2 vhf 1.4394 w 0.0000
+EVAL vhf 1 vhf -3.2240
+EVAL bmj 2 w -6.5061 zsy -2.6242
+EVAL pox 1 g 0.0000
+EVAL x 1 g 0.4403
+EVAL nt 1 g -6.1413
+EVAL saf 2 vhf 0.0000 w -7.1577
+EVAL zm 1 g 0.0036
+EVAL lfs 1 lfs -2.2314
+EVAL zm 1 g -5.3097
+EVAL pox 1 g -3.5621
+EVAL ct 1 lfs -7.4702
+EVAL i 1 g -7.8153
+EVAL k 1 g -0.2838
+EVAL foh
+EVAL zm
+EVAL foh
+EVAL w 1 w -3.2611
+EVAL o 3 w -6.2963 g -2.9467 zsy 0.0000
+EVAL l 1 g -0.1376
+EVAL zsy
+EVAL zm 1 g -5.9787
+EVAL o 3 w -7.2167 g -3.0909 zsy 1.7816
+EVAL reh 1 g -5.1696
+EVAL yaw 2 vhf -4.1251 w -1.2784
+EVAL fx 1 g -4.7201
+EVAL i 1 g -5.5009
+EVAL foh
+EVAL upb 2 vhf 0.2560 w 0.0000
+EVAL yaw 2 vhf 0.0000 w -3.9841
+EVAL hlv 1 g -7.3611
+EVAL saf 2 vhf -7.2174 w -3.1447
+EVAL k 1 g 0.0000
+EVAL x 1 g 0.0130
+EVAL pox 1 g 0.0000
+EVAL k 1 g -2.1992
+EVAL hlv 1 g 1.4726
+EVAL x 1 g -6.5396
+EVAL i 1 g 0.0000
+EVAL k 1 g -2.1500
+EVAL saf 2 vhf 0.0000 w -5.7311
+EVAL saf 2 vhf 0.0000 w 0.0000
+EVAL saf 2 vhf -7.4258 w 0.2801
+EVAL x 1 g -0.3866
+EVAL hlv 1 g -6.7426
+EVAL x 1 g -0.6236
+EVAL fx 1 g -3.3184
+EVAL yaw 2 vhf 0.0000 w -4.7042
+EVAL foh

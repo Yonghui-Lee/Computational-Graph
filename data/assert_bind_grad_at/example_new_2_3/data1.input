@@ -1,0 +1,142 @@
+10
+vic V -0.0869
+pnv C 1.6375
+qd P
+tl V 0.0000
+s C -0.0803
+mao P
+dqb C 0.0000
+yom P
+bf C -5.3474
+v C -3.6116
+52
+b = ASSERT tl
+hfy = s + qd
+h = ASSERT mao
+p = ASSERT dqb
+nt = BIND v h
+r = GRAD hfy
+nt = ASSERT nt
+r = BIND tl nt
+bvr = ASSERT hfy
+x = yom * pnv
+wq = GRAD hfy
+c = GRAD x
+f = BIND pnv b
+r = vic + mao
+nt = GRAD r
+c = BIND f bvr
+nmq = ASSERT r
+f = ASSERT yom
+nmq = BIND c f
+c = pnv + qd
+utv = ASSERT hfy
+bvr = GRAD hfy
+nmq = wq AT qd
+bvr = GRAD c
+er = BIND tl p
+b = vic * hfy
+o = GRAD hfy
+x = ASSERT hfy
+b = BIND bf utv
+f = bvr AT pnv
+x = BIND v p
+k = ASSERT er
+l = o AT qd
+l = wq AT qd
+x = ASSERT mao
+wq = BIND vic h
+o = v * wq
+nmq = nt AT vic
+h = nt AT vic
+r = yom + wq
+wq = nt AT vic
+nt = nt AT vic
+l = bvr AT pnv
+hfy = bvr AT pnv
+utv = BIND v utv
+h = bvr AT pnv
+og = bvr AT pnv
+o = ASSERT hfy
+og = BIND utv p
+nmq = ASSERT h
+hfy = BIND tl o
+f = ASSERT f
+77
+EVAL tl
+SETANSWER tl 1
+EVAL c 1 qd 0.0000
+EVAL b 1 qd 0.0000
+EVAL utv 1 qd 0.0000
+EVAL tl
+EVAL wq 1 mao -7.5101
+EVAL v
+EVAL s
+EVAL v
+SETANSWER tl 7
+EVAL c 1 qd -2.2696
+EVAL dqb
+EVAL wq 1 mao -0.7874
+SETANSWER tl 9
+EVAL b 1 qd -4.8911
+SETANSWER tl 13
+EVAL utv 1 qd -3.9869
+EVAL s
+EVAL v
+EVAL mao
+EVAL yom 1 yom -4.9448
+EVAL c 1 qd 0.0000
+EVAL r 2 yom 0.0000 mao 1.2456
+EVAL s
+EVAL b 1 qd -5.3066
+SETANSWER vic 24
+SETCONSTANT vic 1.4311
+EVAL v
+EVAL pnv
+EVAL hfy 1 qd -5.6601
+SETCONSTANT tl -3.3391
+EVAL b 1 qd -4.2767
+EVAL hfy 1 qd 0.8093
+EVAL hfy 1 qd -0.8119
+EVAL h 1 qd -5.2158
+EVAL tl
+EVAL v
+EVAL yom
+EVAL og 1 qd -1.8409
+EVAL h 1 qd -7.6726
+SETCONSTANT tl -0.7943
+EVAL og 1 qd -1.2543
+EVAL qd 1 qd -5.1112
+EVAL c
+EVAL h 1 qd -3.6082
+SETCONSTANT vic -6.1590
+EVAL vic
+EVAL h 1 qd 0.0000
+EVAL qd 1 qd 1.7551
+SETANSWER vic 19
+EVAL b 1 qd 0.3232
+EVAL b 1 qd -3.3687
+EVAL qd 1 qd -5.7269
+EVAL tl
+EVAL h 1 qd -1.3787
+EVAL v
+EVAL c 1 qd -1.0712
+EVAL mao 1 mao 0.0000
+EVAL qd 1 qd 0.8806
+EVAL b 1 qd 0.0000
+EVAL vic
+EVAL v
+EVAL wq 1 mao 0.6428
+EVAL c 1 qd -4.6577
+EVAL mao 1 mao -3.1981
+EVAL qd 1 qd 0.0000
+EVAL yom
+EVAL og 1 qd 0.0000
+EVAL yom 1 yom -3.6369
+SETANSWER vic 44
+EVAL c 1 qd -5.0143
+EVAL r 2 yom -1.6362 mao 0.9535
+EVAL yom 1 yom 0.0000
+SETANSWER vic 38
+EVAL h 1 qd -5.8027
+SETCONSTANT vic 0.0000

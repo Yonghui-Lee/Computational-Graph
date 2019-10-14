@@ -1,0 +1,158 @@
+7
+bt C -6.8438
+a C -7.4320
+pba V -0.5910
+gnk V -7.8585
+wq P
+eb P
+hdb C -0.5344
+67
+uwl = SIGMOID pba
+r = PRINT eb
+knz = PRINT r
+nb = PRINT pba
+xp = hdb * r
+nmx = ASSERT a
+s = ASSERT hdb
+nb = SIN gnk
+p = LOG a
+s = EXP p
+ge = ASSERT hdb
+ge = PRINT a
+f = LOG bt
+p = SIN xp
+b = BIND s nmx
+r = TANH gnk
+r = BIND wq nmx
+vut = SIN ge
+s = xp * bt
+p = PRINT knz
+u = hdb + pba
+b = BIND b nmx
+w = EXP s
+ge = eb * a
+uwl = ASSERT a
+p = SIGMOID gnk
+knz = LOG vut
+vut = TANH pba
+b = SIGMOID s
+b = BIND eb uwl
+b = BIND nb uwl
+bg = BIND w nmx
+nb = BIND bg nmx
+w = BIND f nmx
+yop = knz + vut
+b = BIND vut uwl
+ec = BIND bt uwl
+xp = ASSERT a
+nmx = f + bg
+ulp = SIN f
+knz = BIND b uwl
+n = BIND p xp
+ge = ASSERT eb
+s = BIND r xp
+ge = knz + p
+nb = BIND s uwl
+vut = SIN eb
+n = s * u
+vut = ge * r
+knz = BIND w xp
+vut = BIND yop uwl
+b = TANH r
+p = BIND b xp
+ulp = BIND hdb uwl
+r = LOG gnk
+w = LOG f
+cs = BIND bg xp
+u = BIND eb uwl
+knz = EXP cs
+p = BIND eb uwl
+xp = TANH vut
+yop = BIND eb uwl
+f = nb * wq
+u = BIND vut uwl
+ge = SIGMOID nmx
+w = SIGMOID yop
+nmx = BIND vut uwl
+81
+EVAL pba
+EVAL bt
+EVAL p 1 eb 1.3702
+SETANSWER pba 2
+EVAL f 1 wq -0.9571
+EVAL n 1 wq -7.8463
+EVAL p 1 eb 0.0000
+EVAL yop 1 eb -4.2825
+EVAL yop 1 eb -3.2593
+EVAL b 1 wq 0.0000
+EVAL b 1 wq 0.0000
+EVAL s 1 wq -3.4714
+EVAL w 1 eb 0.7652
+EVAL pba
+EVAL b 1 wq 1.8047
+EVAL p 1 eb -5.7801
+SETANSWER pba 14
+SETANSWER gnk 2
+EVAL w 1 eb -2.4292
+EVAL w 1 eb 0.0000
+EVAL b 1 wq 0.0000
+EVAL ec
+EVAL b 1 wq 0.0000
+EVAL yop 1 eb -0.8294
+EVAL hdb
+EVAL ulp
+EVAL ulp
+EVAL p 1 eb 0.0000
+EVAL f 1 wq 0.0000
+EVAL s 1 wq -4.8689
+SETANSWER pba 2
+EVAL r
+EVAL a
+EVAL a
+EVAL bt
+EVAL f 1 wq 1.0895
+EVAL s 1 wq 0.0000
+EVAL r
+EVAL p 1 eb -3.1657
+EVAL a
+EVAL n 1 wq -3.2463
+EVAL yop 1 eb -4.9291
+EVAL gnk
+EVAL wq 1 wq 0.0000
+EVAL ec
+SETANSWER pba 2
+EVAL nb 1 wq 0.0000
+EVAL n 1 wq 0.0000
+SETCONSTANT pba 0.0000
+EVAL eb 1 eb -6.7196
+SETANSWER gnk 43
+SETCONSTANT pba -0.4686
+EVAL f 1 wq 0.0000
+EVAL p 1 eb -0.2835
+SETANSWER gnk 1
+EVAL a
+SETCONSTANT pba 1.6001
+EVAL pba
+EVAL f 1 wq -2.7017
+EVAL s 1 wq -4.0396
+EVAL wq
+EVAL b 1 wq -7.5811
+EVAL gnk
+EVAL gnk
+EVAL b 1 wq -5.6571
+SETCONSTANT gnk -5.9840
+EVAL p 1 eb -0.5943
+EVAL eb 1 eb 0.0000
+EVAL hdb
+EVAL yop 1 eb 0.1706
+EVAL hdb
+EVAL yop 1 eb -4.2677
+EVAL bt
+EVAL wq 1 wq -6.7212
+EVAL ec
+EVAL b 1 wq -5.9816
+EVAL r
+SETANSWER pba 74
+SETANSWER pba 25
+EVAL n 1 wq -3.3473
+SETANSWER pba 56

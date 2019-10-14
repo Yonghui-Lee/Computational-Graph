@@ -1,0 +1,163 @@
+8
+zar C 0.0000
+d P
+qnb P
+lcp P
+lsm P
+fpa V -0.7697
+ge C -3.6842
+lv V -4.4643
+88
+ke = LOG lcp
+eu = LOG ke
+jtv = ASSERT lv
+z = ke + lv
+k = BIND lsm jtv
+yct = PRINT lcp
+i = BIND yct jtv
+s = BIND qnb jtv
+b = k + fpa
+bn = BIND b jtv
+bn = BIND eu jtv
+bn = LOG bn
+lx = BIND b jtv
+ov = PRINT i
+i = BIND eu jtv
+bn = BIND lcp jtv
+du = EXP bn
+k = BIND ke jtv
+fd = BIND qnb jtv
+bfe = SIGMOID i
+i = BIND z jtv
+bfe = BIND ke jtv
+bn = lcp + z
+eu = SIGMOID fd
+bfe = BIND bfe jtv
+bn = PRINT qnb
+ke = BIND ke jtv
+jtv = SIN lv
+bn = ge + ov
+s = TANH lcp
+k = LOG i
+ke = z * s
+z = SIN fpa
+s = SIGMOID fpa
+e = LOG lx
+i = PRINT eu
+yct = LOG ge
+dpa = TANH ov
+yct = PRINT lv
+ov = SIN eu
+yct = SIN lsm
+ke = PRINT jtv
+z = zar * lsm
+bn = PRINT ge
+du = SIN s
+ke = s * lv
+ikx = ASSERT lsm
+dpa = LOG i
+ov = BIND dpa ikx
+yct = ge + qnb
+yct = SIN i
+z = ASSERT lcp
+fd = SIN zar
+bn = ASSERT e
+k = TANH e
+fd = BIND lcp ikx
+yct = BIND k z
+du = LOG qnb
+b = BIND zar z
+yct = BIND lv bn
+e = BIND b ikx
+ikx = BIND ke z
+bfe = PRINT s
+p = BIND jtv z
+i = BIND lsm bn
+eu = BIND lcp bn
+s = BIND du z
+e = LOG p
+z = SIN fpa
+ov = LOG b
+b = EXP fd
+ikx = BIND ov bn
+p = e + e
+s = BIND i bn
+jtv = BIND zar bn
+i = TANH ge
+du = BIND zar bn
+b = BIND eu bn
+z = BIND zar bn
+bn = PRINT lsm
+fd = LOG ge
+ov = TANH d
+e = LOG p
+s = LOG eu
+b = LOG ke
+eu = ASSERT dpa
+z = PRINT p
+z = LOG i
+64
+EVAL b
+EVAL z
+EVAL lcp
+EVAL z
+EVAL yct 1 lsm -1.8737
+EVAL ikx 2 lcp 0.0000 lsm 0.0000
+SETCONSTANT fpa 0.0000
+EVAL i
+SETANSWER fpa 8
+EVAL k 1 lsm 0.0000
+EVAL ke
+EVAL jtv 1 lsm 0.0000
+SETCONSTANT fpa 0.6962
+EVAL lv
+EVAL d 1 d -1.3857
+EVAL lcp 1 lcp -5.5272
+EVAL s 2 lcp -5.7726 lsm -0.7405
+SETANSWER lv 16
+EVAL bn 1 lsm -5.2464
+EVAL p 1 lcp 0.0000
+SETANSWER fpa 8
+SETANSWER fpa 8
+SETCONSTANT lv -4.1412
+EVAL ikx 2 lcp 1.8165 lsm 0.0000
+EVAL qnb 1 qnb -5.3456
+EVAL i
+EVAL ke
+EVAL lx 1 lsm -1.3623
+EVAL ikx 2 lcp -4.9244 lsm 1.6999
+EVAL z
+EVAL z
+EVAL lcp 1 lcp 0.0000
+SETANSWER lv 8
+EVAL fd
+EVAL ov 1 d -6.7363
+EVAL i
+EVAL lv
+EVAL k 1 lsm 1.1430
+EVAL lsm 1 lsm -5.4672
+EVAL e 1 lcp -6.3862
+EVAL ov 1 d 0.0839
+EVAL z
+EVAL p 1 lcp 0.0000
+EVAL ikx 2 lcp -7.5536 lsm -5.0218
+EVAL jtv 1 lsm -3.0246
+EVAL ke
+EVAL fpa
+EVAL s 2 lcp -5.1836 lsm 0.5643
+EVAL ov 1 d -3.0810
+EVAL qnb 1 qnb -7.5060
+EVAL bfe
+EVAL ke
+SETANSWER fpa 15
+EVAL fd
+EVAL b
+EVAL du 1 lsm -7.6055
+EVAL lsm 1 lsm 0.0000
+EVAL fd
+EVAL ke
+EVAL ke
+EVAL s 2 lcp 0.3259 lsm 0.8600
+EVAL s 2 lcp -6.6706 lsm 1.7999
+EVAL fd
+EVAL bfe

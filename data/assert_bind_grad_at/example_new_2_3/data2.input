@@ -1,0 +1,119 @@
+6
+bg C -6.7290
+lzm C 0.0000
+i C -1.1093
+wza V 0.0000
+rq C 1.6191
+tnr P
+54
+hr = ASSERT tnr
+r = bg + rq
+es = ASSERT i
+qw = GRAD r
+z = ASSERT bg
+hnt = BIND bg z
+vk = BIND hnt es
+zb = BIND tnr es
+r = qw AT rq
+oy = BIND vk z
+qw = tnr * rq
+r = BIND qw es
+ox = BIND hnt z
+rb = GRAD qw
+zbo = BIND bg hr
+zbo = rb AT rq
+hr = rb AT rq
+f = lzm + hr
+k = rb AT rq
+vk = BIND ox z
+hnt = rb AT rq
+cfe = BIND vk z
+qw = BIND zbo es
+zb = BIND wza es
+vk = rb AT rq
+rb = BIND ox es
+ut = tnr + bg
+ox = BIND bg es
+ut = BIND zbo z
+rb = BIND r z
+hr = rq + rb
+oy = BIND vk es
+ox = BIND tnr es
+z = BIND hr es
+xlr = lzm * zb
+ox = BIND xlr es
+oy = BIND z es
+a = ASSERT ox
+hr = tnr * hr
+xlr = wza * lzm
+z = BIND hr es
+cfe = GRAD xlr
+cfe = ASSERT wza
+o = rb + xlr
+ox = GRAD xlr
+hr = BIND z cfe
+zbo = BIND o cfe
+hr = BIND i es
+a = ox AT lzm
+oy = ASSERT wza
+hr = BIND vk cfe
+qw = BIND hr cfe
+ut = ox AT lzm
+r = ox AT lzm
+56
+EVAL hr 1 tnr -6.3422
+SETCONSTANT wza -2.5053
+EVAL f 1 tnr 0.0000
+EVAL zbo 1 tnr -0.8042
+EVAL xlr
+EVAL hr 1 tnr -3.4765
+EVAL r
+SETCONSTANT wza -4.6811
+EVAL f 1 tnr 0.4140
+SETANSWER wza 9
+EVAL ut
+EVAL lzm
+EVAL rb 1 tnr -6.1014
+EVAL i
+EVAL hnt 1 tnr -5.9471
+SETCONSTANT wza -1.1503
+EVAL xlr
+EVAL r
+EVAL wza
+EVAL o 1 tnr 0.0000
+EVAL f 1 tnr 0.0000
+EVAL qw 1 tnr 0.0000
+SETCONSTANT wza 0.0000
+EVAL i
+SETANSWER wza 3
+EVAL vk 1 tnr 0.5244
+SETANSWER wza 21
+SETCONSTANT wza 0.0000
+SETCONSTANT wza 0.0000
+SETCONSTANT wza -6.8382
+EVAL rb 1 tnr 0.0000
+EVAL zb
+SETANSWER wza 9
+EVAL bg
+SETCONSTANT wza 1.2723
+EVAL zbo 1 tnr -3.6813
+EVAL hnt 1 tnr 0.0000
+EVAL ut
+EVAL rb 1 tnr -4.4416
+EVAL r
+SETANSWER wza 11
+EVAL k 1 tnr 0.0000
+EVAL xlr
+EVAL o 1 tnr -4.0673
+EVAL r
+EVAL hnt 1 tnr -7.8527
+EVAL i
+EVAL hnt 1 tnr 0.9862
+EVAL tnr 1 tnr 0.0000
+EVAL z 1 tnr 1.2999
+EVAL zbo 1 tnr 0.0000
+EVAL rb 1 tnr -0.0949
+EVAL wza
+EVAL f 1 tnr 0.0000
+EVAL xlr
+EVAL rb 1 tnr 0.0000
