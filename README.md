@@ -1,8 +1,4 @@
 # Computational-Graph
----
-typora-copy-images-to: ./
-
----
 
 # 计算图第二阶段
 
